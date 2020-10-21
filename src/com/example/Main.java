@@ -30,8 +30,8 @@ public class Main {
     }
 
     public static void main(String[] args) throws IOException, InterruptedException {
-	    Main main = new Main();
-	    main.timeWork(()->{
+        Main main = new Main();
+        main.timeWork(()->{
             main.theFunctionToTime();
         });
     }

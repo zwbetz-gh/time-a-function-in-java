@@ -1,14 +1,10 @@
 # Time a function in Java
 
-Time a function in Java by using an inline lambda expression.
+Time a function in Java by using a Runnable.
 
-## Build
+See [src/App.java](src/App.java).
 
-```
-./task_build.sh
-```
-
-## Run
+## Run it
 
 ```
 ./task_run.sh

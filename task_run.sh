@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
 
-OUTPUT=classes
+OUTPUT="classes"
 
-java -cp ${OUTPUT} com.example.Main
+javac src/*.java -d ${OUTPUT} && java -cp ${OUTPUT} App
